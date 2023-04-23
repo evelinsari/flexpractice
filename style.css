@@ -43,15 +43,21 @@ body{
     justify-content: space-between;
     padding: 10px 10px;
     border-bottom: 3px solid black;
+    align-items: center;
+    font-weight: bolder;
 }
 #about{
     margin-right: 20px;
 }
 button{
     padding: 3px 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
 }
 #first-container, #second-container{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: space-evenly;
 
@@ -68,17 +74,19 @@ button{
     width: 450px;
     height: 150px;
     border: 3px solid black;
-    margin-top: 270px;
-    padding: 20px 20px;
+    margin-top: 10%;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
 }
 .boxes2{
     position: relative;
     width: 450px;
     height: 150px;
     border: 3px solid black;
-    margin-top: 30px;
-    margin-bottom: 270px;
-    padding: 20px 20px;
+    margin-top: 10%; 
+    margin-bottom: 10%;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
 }
 
 
@@ -91,11 +99,4 @@ button{
     font-weight: bold;
     
 }
-@media screen and (max-width: 700px) {
-    #first-container, #second-container{   
-      flex-direction: column;
-    }
-    .boxes{
-        width: 100%;
-    }
-  }
+
